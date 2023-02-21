@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: 'MontserratReg';
+  src: local('MontserratReg'), url(./static/fonts/Montserrat/static/Montserrat-Regular.ttf) format('truetype')
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: local('Merriweather'), url(./static/fonts/Merriweather/Merriweather-Regular.ttf) format('truetype')
+}
+
+@font-face {
+  font-family: 'Active';
+  src: local('Active'), url(./static/fonts/Active/active/webfonts/active.ttf) format('truetype')
+}

@@ -1,0 +1,27 @@
+/*
+Font: 		Active One Fill
+Style: 		Regular
+URL: 		https://www.youworkforthem.com/font/T7384/active
+Foundry: 	Adam Ladd
+Foundry: 	https://www.youworkforthem.com/designer/820/adam-ladd
+Copyright:	Copyright © 2016 by Adam Ladd. All rights reserved.
+Version: 	17
+Created:	January 05, 2017
+License: 	https://www.youworkforthem.com/font-license 
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted 
+			from using the WebFonts(s) listed without a purchased license. 
+			All details above must always remain unaltered and visible in your CSS.
+*/
+
+@font-face {
+	font-family: 'ActiveOneFill-Regular';
+	src: url('active-one-fill.eot');
+	src: url('active-one-fill.eot?#iefix') format('embedded-opentype'),
+             url('active-one-fill.woff2') format('woff2'),
+	     url('active-one-fill.woff') format('woff'),
+	     url('active-one-fill.ttf') format('truetype'),
+	     url('active-one-fill.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

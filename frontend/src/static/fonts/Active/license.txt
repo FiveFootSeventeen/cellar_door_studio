@@ -1,0 +1,56 @@
+
+Close
+END USER LICENSE AGREEMENT - WEBFONTS
+YouWorkForThem WebFonts are licensed based on monthly pageviews, for a one-time fee. There are no subscriptions, no re-occurring fees, and no tracking. You are responsible for upgrading your license, should your site come to reflect higher monthly pageviews. (You only need to pay the difference.) Traffic should be based on a six-month average of stats. (Or an estimate thereof if six months are not yet available.)
+YouWorkForThem WebFonts are made available in the following file formats: EOT, WOFF2, WOFF, SVG, TTF (Web-Only) and are generated from the latest version of the desktop font. You are responsible for hosting the files, and referring to them with code that you administer. YouWorkForThem simply provides the files "as is," and is not responsible for tech and/or design support. (We just sell the cars, we don't pave the roads.)
+PRICING
+The WebFonts licenses are available at the following pricing tiers:
+Monthly Pageviews	Pricing
+10,000	1x Desktop Price
+100,000	2x Desktop Price
+500,000	5x Desktop Price
+1,000,000	10x Desktop Price
+5,000,000	25x Desktop Price
+TO COMPLETE YOUR PURCHASE, YOU MUST AGREE TO THE FOLLOWING EULA
+THIS IS A BINDING LEGAL AGREEMENT - This EULA governs Webfont licenses purchased from YouWorkForThem, hereafter referred to as Licensed Webfont(s). If the Licensed End User (hereafter referred to as "You") refuses to accept a contractual obligation through this license agreement, you are not permitted to access, use or download the YouWorkForThem WebFont Software. Please thoroughly and carefully read through this Agreement before purchasing, downloading, installing or using the WebFont Software. Any of these actions shall indicate your express agreement to the following terms and conditions.
+The YouWorkForThem WebFont Software licensed under this Agreement and its inherent digital, device-readable, scalable data is supplied to you by YouWorkForThem for USAGE ONLY, and remains the intellectual property of YouWorkForThem and/or the Designer of the Font Software (hereafter referred to as "Designer").
+YouWorkForThem reserves all rights not expressly granted to you under this license Agreement.
+1. PERMITTED INSTALLATIONS AND USES
+Using the Licensed WebFont(s) on the web, for styling HTML web pages, is permitted using CSS @font-face. You may use one Licensed WebFont on one domain name (URL) only. You cannot link the WebFont files across multiple domains. (Workplace intranets are restricted to these same conditions.) The Licensed WebFont(s) may be used on any web site owned/controlled by the licensee (subject to paragraphs 2.4 and 2.5 below).
+ 2. RESTRICTIONS
+Use of the Licensed WebFont(s) is subject to the following restrictions:
+ 2.1. YOU MAY ONLY PUT ONLINE
+and/or link to the EOT, WOFF, SVG and/or Web-Only TTF file formats provided by YouWorkForThem. YOU MAY NOT put online and/or link to any other file format, including, but not limited to, Truetype or OpenType.
+ 2.2. YOU MUST RETAIN THE COMMENTS
+showing copyright and other legal or ownership information in the sample HTML/CSS/Javascript files in your working, published web site code. If you remove and/or fail to show this information, in whole or in part, within your code, any and all support is void.
+ 2.3. YOU MAY NOT EXCEED
+the number of monthly pageviews specified in the receipt you received for the Licensed WebFont. If the six-month average number of monthly pageviews exceeds the amount in your purchased pricing Tier, then you must upgrade your license to the correct page view amount. Determining this information is up to you, the End User. Please be honest, and pay for what you use.
+ 2.4. SERVICE PROVIDER/BUREAU RESTRICTIONS
+Agencies or others responsible for multiple clients' web sites, including, but not limited to, web design agencies, hosting providers, or web-based service providers, including, but not limited to, online media services or social networks, may not use and/or share a single WebFont or other Font Software license for the use and/or benefit of multiple clients. (Each beneficial user of WebFont Software must purchase their own appropriately-tiered license.)
+ 2.5. LIMITED TO WEB DISPLAY
+Licensed WebFont(s) are for display in the Web environment, in a browser, and only for "stylizing HTML pages," except where noted below. They may not be used in any other way, for any other platforms, including, but not limited to, laptop computers, desktop computers, computer servers, smartphones, electronic kiosks, gaming devices and machines like the PS4, XBOX, Wii, GameBoy, PSP, or any other media players and/or smart televisions.
+ 2.6 LICENSED WEBFONT(S) MAY NOT BE USED IN ANY WEB-BASED APPLICATION
+(by way of example only, not limitation):
+ where users of the site can select and/or use any Licensed WebFont for any text composition or editing use;
+
+ where the Licensed WebFont(s) are used within an application that is sold or made available for free, or in any other way is distributed for use outside of use within a web browser, an ePub or PDF document of any kind;
+
+ where users can select and/or use any Licensed WebFont for printing purposes, or in any merchandising scenario (i.e. greeting cards, apparel design, et al);
+
+ where the Licensed WebFont(s) are displayed on subdomains at which the content is NOT controlled by you; (i.e., if you're a Tumblr user, you can use the WebFont on YOUR Tumblr page, but if you ARE Tumblr, or Facebook, etc., you can't allow your customers to use the WebFont.)
+
+ where the Licensed WebFont(s) are displayed within an online editor or design tool.
+ 2.7. YOU MAY NOT USE CONVERSION OR EDITING TOOLS
+to amend, modify or otherwise change or alter the Licensed Webfont(s). You may not adapt, embed, translate, modify, reverse engineer or create derivative works based on the Licensed Webfont(s). You may not re-convert the the Licensed Webfont(s) file formats to other file formats using other online web font conversion tools.
+ 2.8. YOU MAY NOT USE THE LICENSED WEBFONT(S) WITH
+any technologies other than @font-face, such as (by way of example, not limitation) slFR, Cufón or Typeface.js.
+ 2.9. YOU MAY NOT SELL, RE-SELL, SUB-LICENSE
+or otherwise make available the Licensed WebFont(s), irrespective of the technology or methods used, to any third party or by any Webfont provision service irrespective of whether for payment, in trade or without charge.
+3. BACKUPS
+You can keep backups of Licensed Webfonts in the cloud, locally on a desktop, laptop or mobile device, or on a studio server, ONLY IF you, as the single user/owner is the only person who maintains the backup. It cannot be managed by numerous users.
+4. TERMINATION
+YouWorkForThem has the right to terminate your license immediately if you fail to comply with any of the terms listed in this License Agreement. Upon termination, you must destroy the original and any copies of the YouWorkForThem WebFont and accompanying documentation. This license may be updated from time to time, with the latest version always being available on our website. If you cannot find the latest version on our website, please contact us for details.
+5. JURISDICTION
+This License Agreement is governed under the laws of the State of Tennessee (USA).
+Should any additional use that is restricted or not permitted under this license be desired, contact YouWorkForThem and we will be happy to discuss a license upgrade.
+

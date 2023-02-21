@@ -1,0 +1,42 @@
+
+.App-body {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: "center";
+  font-size: calc(10px + 2vmin);
+  color: #363636;
+}
+
+.Header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Center-content {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.brush-hr {
+  border-image-source: url("static/images/brush_hr.png");
+  border-image-slice: 20 150 20 150;
+  border-image-width: 5px 20px 0px 20px;
+  border-image-outset: 0px 0px 0px 0px;
+  border-image-repeat: repeat;
+  border-style: solid;
+}

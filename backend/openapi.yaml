@@ -1,0 +1,190 @@
+info:
+  title: Template API
+  description: 'Change me'
+  version 0.1.0
+
+servers:
+  - url: http://{server}/api/v1
+    variables:
+      server:
+        default: 127.0.0.1:6543
+
+components:
+  responses:
+    BadRequest:
+      description: Invalid Request
+      content:
+        application/json:
+          schema:
+            allOf:
+              - $ref: '#/components/schemas/BaseError'
+              - type: object
+                properties:
+                  status:
+                    type: integer
+                    enum: [400]
+                  invalid-params:
+                    type: array
+                    items:
+                      type: object
+                      required:
+                        - name
+                        - reason
+                      properties:
+                        name:
+                          type: string
+                        reason:
+                          type: string
+    NotFound:
+      description: Resource not found
+      content:
+        application/json:
+          schema:
+            allOf:
+              - $ref: '#/components/schemas/BaseError'
+              - type: object
+                properties:
+                  status:
+                    type: integer
+                    enum: [404]
+    Unauthenticated:
+      description: Invalid user authenticated credentials (may indicate expired token)
+      content:
+        application/json:
+          schema:
+            allOf:
+              - $ref: '#/components/schemas/BaseError'
+              - type: object
+                properties:
+                  status:
+                    type: integer
+                    enum: [401]
+    Unauthorized:
+      description: User not authorized to perform action (lacks permission)
+      content:
+        application/json:
+          schema:
+            allOf:
+              - $ref: '#/components/schemas/BaseError'
+              - type: object
+                properties:
+                  status:
+                    type: integer
+                    enum: [403]
+    UnprocessableEntity:
+      description: Invalid request parameters (valid format, bad values)
+      content:
+        application/json:
+          schema:
+            allOf:
+              - $ref: '#/components/schemas/BaseError'
+              - type: object
+                properties:
+                  status:
+                    type: integer
+                    enum: [422]
+
+  schemas:
+    BaseError:
+      type: object
+      required:
+        - status
+        - title
+        - details
+      properties:
+        status:
+          type: integer
+          minimum: 400
+          maximum: 600
+        title:
+          type: string
+        details:
+          type: string
+
+tags:
+- name: tmp
+  description: placeholder tag
+
+path:
+  /template_get:
+    get:
+      tags:
+        - tmp
+      summary: Template get endpoint
+      description: >+
+        Just placeholder text
+      parameters:
+        - in: query
+          name: category
+          explode: true
+          schema:
+            type: array
+            items:
+              type: string
+          description: A description of this query param
+    responses:
+      200:
+        description: succesful operation
+        content:
+          application/json:
+          schema:
+            type: array
+            items:
+              type: object
+              required:
+                - tmp1
+                - tmp2
+              properties:
+                tmp1:
+                  type: string
+                tmp2:
+                  type: integer
+      400:
+        $ref: '#components/responses/BadRequest'
+  /template_post:
+    post:
+      tags:
+        -auth
+      summary: Template post endpoint
+      description: >+
+        Just placeholder text
+      parameters:
+        - in: path
+          name: hash
+          required: false
+          schema:
+            type: string
+           description: the file hash
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - tmp1
+                - tmp2
+              properties:
+                tmp1:
+                  type: string
+                  format: password
+                tmp2:
+                  type: integer
+      responses:
+        200:
+          description: successful operation
+          #          content:
+          #            application/json:
+          #              schema:
+          #                type: object
+          #                required:
+          #                  - tmp3
+          #                properties:
+          #                  tmp3:
+          #                    type: string
+        400:
+          $ref: '#components/responses/BadRequest'
+        401:
+          $ref: '#components/responses/Unauthenticated'
+        403:
+          $ref: '#components/responses/Unauthorized'
